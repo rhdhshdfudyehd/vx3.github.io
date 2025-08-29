@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>页面未找到 - 404错误</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+
+			body {
+				background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+				min-height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #333;
+				padding: 20px;
+			}
+
+			.container {
+				max-width: 800px;
+				width: 100%;
+				background: white;
+				border-radius: 20px;
+				box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+				overflow: hidden;
+				text-align: center;
+			}
+
+			.content {
+				padding: 40px;
+			}
+
+			.error-code {
+				font-size: 120px;
+				font-weight: 800;
+				color: #000;
+				line-height: 1;
+				margin-bottom: 20px;
+			}
+
+			.error-title {
+				font-size: 32px;
+				margin-bottom: 20px;
+				color: #2d2b55;
+			}
+
+			.error-message {
+				font-size: 18px;
+				color: #666;
+				margin-bottom: 30px;
+				line-height: 1.6;
+			}
+
+			.coffee-container {
+				margin: 30px auto;
+				width: 150px;
+				height: 150px;
+				position: relative;
+			}
+
+			.coffee-cup {
+				width: 80px;
+				height: 60px;
+				background: #6c63ff;
+				border-radius: 0 0 20px 20px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.coffee-cup:before {
+				content: '';
+				position: absolute;
+				width: 20px;
+				height: 30px;
+				border: 5px solid #6c63ff;
+				border-left: none;
+				border-radius: 0 30px 30px 0;
+				right: -25px;
+				top: 5px;
+			}
+
+			.steam {
+				position: absolute;
+				width: 10px;
+				height: 40px;
+				background: #fff;
+				border-radius: 5px;
+				top: 0;
+				opacity: 0;
+			}
+
+			.steam.one {
+				left: 55px;
+				animation: steam-animation 2s ease-out infinite;
+			}
+
+			.steam.two {
+				left: 75px;
+				animation: steam-animation 2s ease-out 0.5s infinite;
+			}
+
+			.steam.three {
+				left: 95px;
+				animation: steam-animation 2s ease-out 1s infinite;
+			}
+
+			@keyframes steam-animation {
+				0% {
+					transform: translateY(0) scale(1);
+					opacity: 0.7;
+				}
+
+				100% {
+					transform: translateY(-40px) scale(2);
+					opacity: 0;
+				}
+			}
+
+			.actions {
+				display: flex;
+				justify-content: center;
+				gap: 15px;
+				margin-top: 30px;
+			}
+
+			.btn {
+				padding: 12px 30px;
+				border-radius: 50px;
+				text-decoration: none;
+				font-weight: 600;
+				transition: all 0.3s ease;
+				display: inline-block;
+			}
+
+			.btn-primary {
+				background: #07c160;
+				color: white;
+			}
+
+			.footer {
+				margin-top: 30px;
+				color: #888;
+				font-size: 14px;
+			}
+
+			@media (max-width: 600px) {
+				.error-code {
+					font-size: 80px;
+				}
+
+				.error-title {
+					font-size: 24px;
+				}
+
+				.actions {
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.btn {
+					width: 100%;
+					max-width: 250px;
+					text-align: center;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<h1 class="error-code">404</h1>
+				<h2 class="error-title">哎呀！页面未找到</h2>
+				<p class="error-message">
+					您要查找的页面可能已被移除、名称已更改或暂时不可用。
+					但别担心，我们的咖啡还没凉，您可以先喝一杯，然后尝试以下选项：
+				</p>
+
+				<div class="actions">
+					<a href="/" class="btn btn-primary">返回首页</a>
+				</div>
+
+				<div class="footer">
+					<p>&copy; 2025 iwa21.com. 保留所有权利.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
