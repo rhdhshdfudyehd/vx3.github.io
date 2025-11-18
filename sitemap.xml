@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.iwa21.com/</loc>
-    <lastmod>2025-11-17</lastmod>
+    <lastmod>2025-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.iwa21.com/article.html</loc>
-    <lastmod>2025-11-17</lastmod>
+    <lastmod>2025-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.iwa21.com/article-2.html</loc>
-    <lastmod>2025-11-17</lastmod>
+    <lastmod>2025-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.iwa21.com/article-3.html</loc>
-    <lastmod>2025-11-17</lastmod>
+    <lastmod>2025-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -435,6 +435,36 @@
   <url>
     <loc>https://www.iwa21.com/article/wei-xin-hao-zhuan-rang-liu-cheng-yu-zhu-yi-shi-xiang-quan-jie-xi.html</loc>
     <lastmod>2025-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.iwa21.com/article/shi-ming-wei-xin-hao-gou-mai-zhi-nan-he-fa-tu-jing-yu-an-quan-shi-yong-quan-jie-xi.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.iwa21.com/article/wei-xin-hao-gou-mai-zi-dong-fa-huo-ping-tai-de-xuan-ze-yu-shi-yong-zhi-nan.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.iwa21.com/article/wei-xin-hao-gou-mai-zhi-nan-an-quan-he-gui-de-zhang-hao-huo-qu-fang-shi-yu-shi-yong-jian-yi.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.iwa21.com/article/mai-wei-xin-hao-de-he-fa-yong-tu-yu-zhu-yi-shi-xiang-quan-jie-xi.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.iwa21.com/article/wei-xin-xiao-hao-de-shi-yong-zhi-nan-he-fa-yong-tu-yu-gao-xiao-guan-li-fang-fa.html</loc>
+    <lastmod>2025-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
